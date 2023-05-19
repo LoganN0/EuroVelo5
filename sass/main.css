@@ -106,4 +106,58 @@
   color: black;
   border: 2px solid rgb(0, 0, 157);
   border-radius: 50px;
+}
+
+main {
+  width: 80%;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  margin: auto;
+  width: 80%;
+}
+
+.contenuContainer {
+  color: aliceblue;
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+
+#slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#slide {
+  width: 100%;
+  height: auto;
+}
+
+#precedent, #suivant {
+  position: absolute;
+  font-size: 100px;
+  background-color: rgba(0, 0, 0, 0.762);
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  top: 50%;
+}
+
+#precedent {
+  display: none;
+}
+
+#suivant {
+  display: none;
+}
+
+#slider:hover #precedent, #slider:hover #suivant {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
