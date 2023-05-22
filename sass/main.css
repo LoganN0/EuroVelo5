@@ -157,6 +157,10 @@ main {
   margin-left: 10px;
 }
 
+.savoirPlus:hover {
+  background-color: #4F29F0;
+}
+
 #slider {
   position: relative;
   width: 100%;
@@ -206,12 +210,17 @@ main {
   --background: #4F29F0;
   width: auto;
   height: 60px;
-  border-radius: 2px;
+  border-radius: 5px;
   border: 1px solid var(--border);
   background: none;
   padding: 0 30px;
   outline: none;
   box-shadow: 0 10px 30px rgba(65, 72, 86, 0.1);
+}
+
+.btnGris:hover {
+  background-color: #414856;
+  color: white;
 }
 
 .btnBleu {
