@@ -228,6 +228,15 @@ main {
   color: #C3C8DE;
 }
 
+.containerExtension {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  gap: 3rem;
+  padding: 5% 7%;
+}
+
 body {
   margin: 0;
   padding: 0;
