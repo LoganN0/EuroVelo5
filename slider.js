@@ -28,6 +28,7 @@ function knowMore() {
       dots.style.display = "none";
       btnText.innerHTML = "Lire Moins"; 
       moreText.style.display = "inline";
+      btnText.style.display = "none";
     }
   }
 
