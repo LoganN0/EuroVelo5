@@ -1,4 +1,4 @@
-const slide = ['calais_1.png','calais_2.jpg','lens_1.jpeg','lens_2.jpg','lille_1.jpg','lille_2.jpg','marais_audomarois_1.jpg','marais_audomarois_2.jpg','marais_audomarois_3.jpg'];
+const slide = ['calais_1.png','calais_2.jpg','lens_1.jpg','lens_2.jpg','lille_1.jpg','lille_2.jpg','marais_audomarois_1.jpg','marais_audomarois_2.jpg','marais_audomarois_3.jpg'];
 let numero = 0;
 
 function ChangeSlide(sens) {
