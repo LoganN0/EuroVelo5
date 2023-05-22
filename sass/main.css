@@ -225,13 +225,13 @@ body {
   font: "Varela Round", sans-serif;
 }
 
-.container {
+.containerSavoir {
   text-align: center;
   margin: 5%;
   padding: 2%;
 }
 
-h1 {
+.titleSavoir {
   color: red;
 }
 
@@ -239,7 +239,7 @@ h1 {
   display: none;
 }
 
-.btn {
+.btnSavoir {
   --light: #fff;
   --dark: #414856;
   --border: #C3C8DE;

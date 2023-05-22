@@ -3,17 +3,17 @@ body {
     padding: 0;
     font: 'Varela Round', sans-serif;
 }
-.container {
+.containerSavoir {
     text-align: center;
     margin: 5%;
     padding: 2%;
 }
-h1 {
+.titleSavoir {
     color: red;
 }
 #more {display: none;}
 
-.btn {
+.btnSavoir {
     --light: #fff;
     --dark: #414856;
     --border: #C3C8DE;
@@ -26,4 +26,6 @@ h1 {
     padding: 0 30px;
     outline: none;
     box-shadow: 0 10px 30px rgba(#414856, 0.1);
+    
+
 }
