@@ -217,4 +217,37 @@ main {
 .btnBleu {
   background-color: #4F29F0;
   color: #C3C8DE;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: "Varela Round", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+#more {
+  display: none;
+}
+
+.btn {
+  --light: #fff;
+  --dark: #414856;
+  --border: #C3C8DE;
+  --background: #4F29F0;
+  width: auto;
+  height: 60px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  background: #4F29F0;
+  padding: 0 30px;
+  outline: none;
+  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.1);
 }/*# sourceMappingURL=main.css.map */
