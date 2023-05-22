@@ -1,13 +1,18 @@
 
+body {
+    font: 'Varela Round', sans-serif;
+
+}
 main {
-    width: 80%;
+    width: 70%;
     height: 100%;
 }
 
-.container {
+.containerSlider {
     height: 100%;
     margin: auto;
-    width: 80%;
+    width: 100%;
+    margin-left: 20%;
    
 }
 .contenuContainer {
@@ -15,22 +20,33 @@ main {
     height: auto;
     width: auto;
     margin: auto;
+    text-align: center;
+    text-decoration: solid;
 }
 
-// .containerSlider {
-//     position:absolute;
-//     top: 0;
-//     text-align: center;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-evenly;
-//     padding-top: 150px;
-//     color: rgb(250, 250, 250);
-//     width: 30%;
-//     margin-left: 20%;
-//     gap: 50px;
-//     height: auto;
-//     }
+.containerText {
+    position:absolute;
+    top: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(250, 250, 250);
+    width: 30%;
+    margin-left: 20%;
+    gap: 50px;
+    letter-spacing: 20%;
+    }
+    .savoirPlus{
+        width: auto;
+        height: 40px;    
+        border-radius: 7px;
+        background: none;
+        color: white;
+        font-size: larger;
+    
+        
+    }
 
 #slider {
     position: relative;
@@ -56,13 +72,38 @@ main {
 
 }
 #precedent {
-    display: none;
-    // left: 0;
+    // display: none;
+    left: 0;
 }
 #suivant {
-    display: none;
-    // right: 0;
+    // display: none;
+    right: 0;
 }
 #slider:hover #precedent,#slider:hover #suivant {
     opacity: 1;
 }
+
+.containerButtons {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+.btn {
+    --light: #fff;
+    --dark: #414856;
+    --border: #C3C8DE;
+    --background: #4F29F0;
+    width: auto;
+    height: 60px;
+    border-radius: 2px;
+    border: 1px solid var(--border);
+    background: none;
+    padding: 0 30px;
+    outline: none;
+    box-shadow: 0 10px 30px rgba(#414856, 0.1);
+    
+  
+
+
+}
+

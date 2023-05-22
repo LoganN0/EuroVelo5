@@ -11,3 +11,7 @@ function ChangeSlide(sens) {
 }
 
 setInterval("ChangeSlide (1)", 4000)
+
+
+
+
