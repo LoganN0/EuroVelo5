@@ -135,16 +135,16 @@ main {
 
 .containerText {
   position: absolute;
-  top: 80%;
+  top: 70%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   color: rgb(250, 250, 250);
-  width: 30%;
+  width: 35%;
   margin-left: 35%;
-  gap: 50px;
-  letter-spacing: 30%;
+  gap: 20px;
+  letter-spacing: 5%;
 }
 
 .savoirPlus {
@@ -154,6 +154,7 @@ main {
   background: none;
   color: white;
   font-size: larger;
+  margin-left: 10px;
 }
 
 #slider {
@@ -211,4 +212,9 @@ main {
   padding: 0 30px;
   outline: none;
   box-shadow: 0 10px 30px rgba(65, 72, 86, 0.1);
+}
+
+.btnBleu {
+  background-color: #4F29F0;
+  color: #C3C8DE;
 }/*# sourceMappingURL=main.css.map */
