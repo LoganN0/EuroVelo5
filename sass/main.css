@@ -212,4 +212,10 @@ main {
   padding: 0 30px;
   outline: none;
   box-shadow: 0 10px 30px rgba(65, 72, 86, 0.1);
+}
+
+#map {
+  height: 900px;
+  width: 1200px;
+  border-radius: 30px;
 }/*# sourceMappingURL=main.css.map */
