@@ -448,22 +448,6 @@ main {
   box-shadow: 0 10px 30px rgba(65, 72, 86, 0.1);
 }
 
-.about-home {
-  text-align: center;
-  margin-left: 15%;
-  margin-right: 14.7%;
-}
-
-.titre-about {
-  margin-bottom: 4vh;
-  font-size: 2.5em;
-  font-weight: lighter;
-}
-
-.text-about {
-  line-height: 3vh;
-}
-
 .btnGris:hover {
   background-color: #414856;
   color: white;
@@ -595,6 +579,28 @@ main {
 
 .submit:active {
   background-color: #06b;
+}
+
+.about-home {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 14.7%;
+}
+
+.titre-about {
+  margin-bottom: 4vh;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+.text-about {
+  line-height: 3vh;
+}
+
+#map {
+  height: 900px;
+  width: 1200px;
+  border-radius: 30px;
 }
 
 body {
