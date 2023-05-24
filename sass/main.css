@@ -365,16 +365,16 @@ main {
 
 .containerText {
   position: absolute;
-  top: 70%;
+  top: 40%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   color: rgb(250, 250, 250);
   width: 35%;
-  margin-left: 35%;
+  margin-left: 18%;
   gap: 20px;
-  letter-spacing: 5%;
+  letter-spacing: 3px;
 }
 
 .savoirPlus {
@@ -598,6 +598,7 @@ main {
 }
 
 #map {
+  position: absolute;
   height: 900px;
   width: 1200px;
   border-radius: 30px;
