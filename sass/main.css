@@ -598,9 +598,67 @@ main {
 }
 
 #map {
+  position: absolute;
   height: 900px;
   width: 1200px;
   border-radius: 30px;
+}
+
+.container_flex {
+  display: flex;
+  flex-direction: column;
+  padding-left: 500px;
+  padding-top: 100px;
+}
+.container_flex .container_encarts_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+.container_flex .container_encarts_2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+.container_flex .container_encarts_3 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.main_article {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.main_article .titleh1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.encarts {
+  position: relative;
+}
+.encarts .little_title {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  background: linear-gradient(180deg, rgb(55, 119, 207) 50%, rgb(4, 31, 227) 70%);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.encarts .little_text {
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.encarts .little_image {
+  border-radius: 6px;
 }
 
 body {
