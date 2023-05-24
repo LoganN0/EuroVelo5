@@ -1,9 +1,10 @@
 
 body {
-    font: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 
 }
 main {
+    width: 100%;
     width: 100%;
     height: 100%;
 }
@@ -11,7 +12,7 @@ main {
 .containerSlider {
     height: 100%;
     margin: auto;
-    width: 100%;
+    width: 70%;
     // margin-left: 20%;
    
 }
@@ -231,3 +232,19 @@ main {
     background-color: #06b;
   }
 
+// Partie About --------------------------------------------------------------------------------------------
+
+.about-home{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 14.7%;
+    
+}
+.titre-about{
+    margin-bottom: 4vh;
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+.text-about{
+    line-height: 3vh;
+}
