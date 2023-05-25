@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="sass/main.css">
-    <title>EuroVélo 5</title>
+    <link rel="icon" type="img/png" href="images/favicon/favicon.png">
+    <title>Bienvenue sur EuroVélo 5</title>
 </head>
 <body>
 <!-- Here my NavBar -->
@@ -42,11 +43,11 @@
 
         <nav class="nav2">
 
-            <a href="#" class="nav-link3">L'TINERAIRE</a>
-            <a href="#" class="nav-link3">INFOS PRATIQUES</a>
-            <a href="#" class="nav-link3">A DECOUVRIR</a>
-            <a href="#" class="nav-link3">IDEES PARCOURS</a>
-            <a href="#" class="nav-link3">VELO ET TRANSPORTS</a>
+            <a href="/gps.html" class="nav-link3">L'TINERAIRE</a>
+            <a href="/infosPratque.html" class="nav-link3">INFOS PRATIQUES</a>
+            <a href="/discover.html" class="nav-link3">A DECOUVRIR</a>
+            <a href="/parcours.html" class="nav-link3">IDEES PARCOURS</a>
+            <a href="/transport.html" class="nav-link3">VELO ET TRANSPORTS</a>
 
         </nav>
 
@@ -65,7 +66,7 @@
                 <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
             </div>
             <div class="containerText">
-                <h1>La Vélomaritime</h1>
+                <h1>L'Eurovélo 5</h1>
                 <p> Une expérience unique à la découverte de perles rares </p>
                 <button class="savoirPlus" type="submit">En savoir plus</button>
             
@@ -78,6 +79,46 @@
            
           </div>
         </div>
+
+        <!-- Here is end of my slider (carousel)  -->
+
+        <!-- Début description et carte -->
+
+        <div class="description_carte">
+            <h2 class="titleev5">EuroVelo 5 - Le parcours entre terre et mer en passant par les plaines et marais, 253km à vélo de Calais à Wattrelos</h2>
+            <p class="descriptionev5">
+                Les deux sections françaises cumulées de l'EuroVelo 5 sont longues d'environ 713 km. 
+                La première traverse les Hauts-de-France, de Calais à Wattrelos et la deuxième 
+                le Grand Est de Sarreguemines à Saint-Louis. <br>
+
+                <br>Dans les Hauts-de-France, l'EV 5 traverse sur près de 235 km 
+                les pays traditionnel de l'Artois et des Flandres. <br>
+
+                <br>Elle démarre au terminal de ferry de Calais et croise l'EuroVelo 4, puis traverse Calais et rejoint Coulogne 
+                en longeant le canal de Calais à Saint-Omer. Ensuite l'itinéraire emprunte une voie verte jusqu'à Guînes,
+                 puis rejoint Ardres en empruntant quelques sections de l'ancienne ligne de chemin de fer d'Anvin à Calais. 
+                 À Watten, l'EV 5 utilise le chemin de halage de l’Aa canalisée jusqu'à Saint-Omer, puis en grande partie 
+                 celui du canal de Neufossé jusqu'à Aire-sur-la-Lys et enfin longe la Lys jusqu'à Saint-Venant. 
+                 La véloroute emprunte à partir de Robecq le chemin de halage du canal d’Aire à La Bassée avant 
+                 d’atteindre Béthune. <br>
+
+                <br>Depuis Béthune, l'EuroVelo 5 se dirige vers Lens via Bruay-la-Buissière et le Parc d'Ohlain1, 
+                et rejoint la véloroute du Bassin Minier (V31 du schéma national) ainsi que la véloroute du Nord (V32). 
+                L'EV 5 fait itinéraire commun avec ces deux dernières jusqu'à Lille, en empruntant le chemin de halage 
+                du canal de la Dêule à partir de Pont-à-Vendin via Don, Haubourdin, les parcs de la Deûle et de la Citadelle 
+                de Lille. <br>
+
+                <br>Enfin à Marquette-lez-Lille, l'EuroVelo 5 quitte la V32 et bifurque en direction de Marcq-en-Barœul, 
+                Wasquehal, Tourcoing, Roubaix et la frontière belge à Wattrelos, en empruntant le chemin de halage du canal 
+                de Roubaix.
+            </p>
+            
+            <iframe class="mapev5" src="https://www.visugpx.com/UTKkq7YKUM?iframe&maponly" allow="fullscreen" scrolling="no"></iframe>
+
+
+        </div>
+
+
 
         <div class="avis-info">
 
@@ -157,7 +198,7 @@
     </main>
 
     <script type="module" src="avis.js"></script>
-    <script src="slider.js"></script>
+    <script src="/JavaScript/slider.js"></script>
     
 </body>
 </html>

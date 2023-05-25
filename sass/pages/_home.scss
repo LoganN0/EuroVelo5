@@ -367,3 +367,27 @@ main {
 .text-about{
     line-height: 3vh;
 }
+
+// Partie Description/Carte
+
+.description_carte{
+    text-align: center;
+
+    .titleev5{
+        font-weight: 600;
+        font-style: italic;
+        padding: 50px 200px 50px 240px;
+    }
+
+    .descriptionev5{
+        padding: 50px 200px 50px 240px;
+        color: rgb(72, 72, 72);
+    }
+
+    .mapev5{
+        border: 0;
+        width: 80%;
+        height: 500px;
+        padding-bottom: 150px;
+    }
+}

@@ -344,8 +344,6 @@ body {
 main {
   width: 100%;
   height: 100%;
-  width: 100%;
-  height: 100%;
 }
 
 .containerSlider {
@@ -715,6 +713,25 @@ main {
   line-height: 3vh;
 }
 
+.description_carte {
+  text-align: center;
+}
+.description_carte .titleev5 {
+  font-weight: 600;
+  font-style: italic;
+  padding: 50px 200px 50px 240px;
+}
+.description_carte .descriptionev5 {
+  padding: 50px 200px 50px 240px;
+  color: rgb(72, 72, 72);
+}
+.description_carte .mapev5 {
+  border: 0;
+  width: 80%;
+  height: 500px;
+  padding-bottom: 150px;
+}
+
 #map {
   position: absolute;
   height: 900px;
@@ -725,7 +742,7 @@ main {
 .container_flex {
   display: flex;
   flex-direction: column;
-  padding-left: 500px;
+  padding-left: 320px;
   padding-top: 100px;
 }
 .container_flex .container_encarts_1 {
@@ -745,6 +762,12 @@ main {
   flex-direction: row;
   gap: 50px;
 }
+.container_flex .container_encarts_3 .zone1 {
+  z-index: 2;
+}
+.container_flex .container_encarts_3 .zone2 {
+  z-index: 1;
+}
 
 .main_article {
   padding-top: 50px;
@@ -757,11 +780,14 @@ main {
 
 .encarts {
   position: relative;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
 }
 .encarts .little_title {
   position: absolute;
   top: 5%;
-  left: 20%;
+  left: 30%;
+  text-align: center;
   background: linear-gradient(180deg, rgb(55, 119, 207) 50%, rgb(4, 31, 227) 70%);
   color: white;
   padding: 5px;
@@ -770,13 +796,19 @@ main {
 .encarts .little_text {
   position: absolute;
   bottom: 5%;
-  left: 20%;
   text-align: center;
-  color: whitesmoke;
+  color: black;
   font-weight: bold;
+  font-size: 20px;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
 }
 .encarts .little_image {
   border-radius: 6px;
+}
+
+.encarts:hover {
+  transform: scale(1.3);
 }
 
 body {
