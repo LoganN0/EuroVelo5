@@ -1,7 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.cardGps {
+    width: 100%;
+}
+
+
 #map{
-    position: absolute;
-    height: 900px;
-    width: 1200px;
+    // position: absolute;
+    // height: 900px;
+    // width: 1200px;
     border-radius: 30px;
 
 }

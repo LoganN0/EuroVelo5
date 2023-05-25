@@ -44,7 +44,7 @@
 
         <nav class="nav2">
 
-            <a href="#" class="nav-link3">L'TINERAIRE</a>
+            <a href="gps.html" class="nav-link3">L'TINERAIRE</a>
             <a href="#" class="nav-link3">INFOS PRATIQUES</a>
             <a href="#" class="nav-link3">A DECOUVRIR</a>
             <a href="#" class="nav-link3">IDEES PARCOURS</a>
@@ -62,26 +62,26 @@
         <div class="containerSlider">
           <div class="contenuContainer">
             <div id="slider">
-                <img src="img/slider/2.jpg" alt="first slide" id="slide">
+                <img src="images/Caroussel/calais_1.png" alt="first slide" id="slide">
                 <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
                 <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
             </div>
             <div class="containerText">
                 <h1>La Vélomaritime</h1>
                 <p> Une expérience unique à la découverte de perles rares </p>
-                <a href="savoirPlus.html" target="_blank"> <button class="savoirPlus btn" type="submit">En savoir plus</button>
-                </a>
+                <button class="savoirPlus" type="submit">En savoir plus</button>
+            
             </div>
             <div class="containerButtons">
-                <button class="btn btnGris" type="submit">Lieu de départ</button>
-                <button class="btn btnGris" type="submit">Lieu d’arrivée</button>
-                <button class="btn btnBleu" type="submit">CALCULER MON ITINÉRAIRE</button>
+                <button class="btn" type="submit">Lieu de départ</button>
+                <button class="btn" type="submit">Lieu d’arrivée</button>
+                <button class="btn" type="submit">CALCULER MON ITINÉRAIRE</button>
             </div>
            
           </div>
         </div>
-        <!---------------------- Partie about ---------------------->
-        <div class="about-home">
+          <!---------------------- Partie about ---------------------->
+          <div class="about-home">
             <h3 class="titre-about">EuroVelo 5 - la <i>"Via Romea Francigena"</i>, 3200 km à vélo reliant l'Angleterre à l'Italie</h3>
 <p class="text-about">
     Prêt à vivre un parcours en pleine nature ?  En référence au célèbre voyage de l’archévêque de Cantorbéry jusqu’à Rome au 10e siècle,  l’EuroVelo 5 relie Londres au Sud de l’Italie sur près de 3 200 km. L’itinéraire traverse le Nord de la France et après une incursion en Belgique et au Luxembourg, la Moselle et l’Alsace avant de rejoindre la Suisse.
@@ -108,10 +108,20 @@
                 
               </div>
               <button type="text" class="submit">TROUVER MON PARCOURS IDÉAL</button>
-            </div>
+            
                
             
         </form>
+    </div>
+
+        <div class="avis-info">
+
+            <h2 class="avis-info-title">AVIS</h1>
+            <p class="avis-info-desc1">Voici les avis des voyageurs</p>
+            <p class="avis-info-desc2">N'hésitez pas à vous aussi commenter et donner votre avis !</p>
+
+        </div>
+
     </div>
 
         </main>
@@ -166,35 +176,36 @@
 <button type="submit" class="footer2-button4"><strong>DEVENIR ACCUEIL VELO</strong></button> 
 
                 </div>
-             </div>
+
             </div>
 
-        </footer>
+            <div class="avis-block3">
+
+                <p id="avis-block-date 3" class="avis-block-date">---</p>
+                <h3 id="avis-block-name 3" class="avis-block-name">---</h3>
+                <h5 id="avis-rating 3" class="avis-rating">---</h5>
+                <p id="avis-localisation 3">---</p>
+                <br>
+                <div class="avis-notes-bg">
+                    <p id="avis-notes-label 3">---</p>
+                    <h4 id="avis-notes 3">---</h4>
+                </div>
+                <br>
+                <h4 id="avis-comment-object 3">---</h4>
+                <p id="avis-comment-content 3" class="avis-comment-content">---</p>
+                <div class="avis-infos-container">
+                    <h5 id="avis-responses-count 3">? réponses</h5>
+                    <a href="#" id="avis-readmore 3" class="avis-readmore">Afficher l'avis</a>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </main>
+
+    <script type="module" src="avis.js"></script>
+    <script src="JavaScript/slider.js"></script>
     
-        <footer class="home-footer3">
-            <div class="part3-footer">
-                <div class="footer3-gauche">
-                    <ul class="footer3-basgauche">
-                        <li>Espace pro/presse</li>
-                        <li>FAQ</li>
-                        <li>Mentions légales</li>
-                        <li>Gestion des cookies</li>
-                    </ul>
-                </div>
-                <div class="footer3-droite">
-                    <ul class="footer-rea">
-                        Réalisation:
-                        <li class="element-rea">Samer</li>
-                        <li class="element-rea">Logan</li>
-                        <li class="element-rea">Sébastien</li>
-                        <li class="element-rea">Kévin</li>
-
-                    </ul>
-
-                </div>
-            </div>
-
-        </footer>
-        <script src="JavaScript/slider.js"></script>
 </body>
 </html>
