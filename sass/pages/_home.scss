@@ -5,7 +5,6 @@ body {
 }
 main {
     width: 100%;
-    width: 100%;
     height: 100%;
 }
 
@@ -26,17 +25,19 @@ main {
 }
 
 .containerText {
-    position:absolute;
-    top: 70%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    color: rgb(250, 250, 250);
-    width: 35%;
-    margin-left: 35%;
-    gap: 20px;
-    letter-spacing: 5%;
+    
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: rgb(250, 250, 250);
+        width: 35%;
+        margin-left: 18%;
+        gap: 20px;
+        letter-spacing: 3px;
+    
     }
     .savoirPlus{
         width: auto;
@@ -107,6 +108,124 @@ main {
     box-shadow: 0 10px 30px rgba(#414856, 0.1);
 }
 
+// partie avis ------------------------------------------------------------------------------
+
+.avis-info {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.avis-block-container {
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.avis-block1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 25%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.avis-block1:hover {
+    background-color: wheat;
+    transform: rotate(2deg) scale(1.05);
+}
+
+.notations {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.avis-block2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 25%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.avis-block2:hover {
+    background-color: wheat;
+    transform: rotate(2deg) scale(1.05);
+}
+
+.avis-block3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 25%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.avis-block3:hover {
+    background-color: wheat;
+    transform: rotate(1deg) scale(1.05);
+}
+
+.avis-rating {
+    color: rgb(119, 101, 0);
+}
+
+.avis-notes-bg {
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+}
+
+.avis-comment-content {
+    font-size: 14px;
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: hidden;
+}
+
+.avis-infos-container {
+    padding: 5%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+}
+
+.avis-readmore {
+    color: rgb(106, 106, 151);
+    text-decoration: none;
+    border: 0px solid;
+    padding: 6%;
+    transition: .2s ease-in-out;
+}
+
+.avis-readmore:hover {
+    font-weight: bolder;
+    padding: 0%;
+    border-bottom: 2px solid rgb(106, 106, 151);
+}
+
+.avis-block-date {
+    margin-top: 2%;
+}
 .btnGris:hover {
     background-color: #414856;
     color: white;
