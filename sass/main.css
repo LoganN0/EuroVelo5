@@ -229,6 +229,115 @@
   margin-right: 3px;
 }
 
+.nav-mobile {
+  position: relative;
+}
+
+.menu-icon {
+  display: block;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffffff;
+  position: relative;
+  top: -40px;
+  left: 0px;
+  background-color: #000;
+}
+
+.menu-icon:hover {
+  color: rgb(0, 0, 255);
+}
+
+.nav-mobile_menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: relative;
+  top: -40px;
+  left: 0px;
+  background-color: rgb(0, 0, 0);
+}
+
+.nav-mobile_menu li {
+  padding: 10px;
+  width: 60%;
+}
+
+.nav-link4 {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 10%;
+  margin-bottom: 5vh;
+}
+
+.nav-link4:hover {
+  color: blue;
+  transition: 0.4s;
+}
+
+.topmobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-mobile-right {
+  position: absolute;
+  right: -50%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-mobile_menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-mobile_menu li a:hover {
+  color: blue;
+  transition: 0.4s;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .topmobile .nav-mobile_menu {
+  display: block;
+}
+
+@media screen and (min-width: 1100px) {
+  .header3 {
+    display: none;
+  }
+  .navmobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav1 {
+    display: none;
+  }
+  .nav2 {
+    display: none;
+  }
+  .header1 {
+    opacity: 0;
+    top: 1000px;
+  }
+  .search {
+    display: none;
+  }
+  .header2 {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -401,6 +510,7 @@ main {
 #slide {
   width: 100%;
   height: auto;
+  z-index: -1;
 }
 
 #precedent, #suivant {
@@ -590,7 +700,7 @@ main {
   height: 100vh;
 }
 
-.form {
+#form {
   background-color: #15172b;
   border-radius: 20px;
   box-sizing: border-box;
@@ -713,6 +823,20 @@ main {
   line-height: 3vh;
 }
 
+@media only screen and (max-width: 1200px) {
+  .containerText {
+    top: 20%;
+    font-size: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .containerText {
+    display: none;
+  }
+  .containerButtons {
+    display: grid;
+  }
+}
 .description_carte {
   text-align: center;
 }
@@ -732,11 +856,45 @@ main {
   padding-bottom: 150px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.selection_carte {
+  width: 100%;
+}
+
 #map {
   position: absolute;
-  height: 900px;
-  width: 1200px;
+  top: 15%;
+  height: 700px;
+  width: 50%;
   border-radius: 30px;
+}
+
+.selectionCart {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 50%;
+  height: 700px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.home-footer-gps {
+  position: absolute;
+  top: 90%;
+  height: 250px;
+  width: 100%;
+}
+
+.home-footer2-gps {
+  position: absolute;
+  top: 115%;
+  height: 250px;
+  width: 100%;
 }
 
 .container_flex {
