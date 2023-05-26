@@ -897,6 +897,19 @@ main {
   padding-bottom: 150px;
 }
 
+.flex_discover .container_encarts_discover1 {
+  padding-bottom: 50px;
+}
+.flex_discover .container_encarts_discover2 {
+  padding-bottom: 50px;
+}
+
+.titleh2 {
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -941,7 +954,7 @@ body {
 .container_flex {
   display: flex;
   flex-direction: column;
-  padding-left: 320px;
+  padding-left: 380px;
   padding-top: 100px;
 }
 .container_flex .container_encarts_1 {
