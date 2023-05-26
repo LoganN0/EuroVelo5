@@ -884,7 +884,7 @@ main {
 .description_carte .titleev5 {
   font-weight: 600;
   font-style: italic;
-  padding: 50px 200px 50px 240px;
+  padding: 50px 200px 0px 240px;
 }
 .description_carte .descriptionev5 {
   padding: 50px 200px 50px 240px;
@@ -894,7 +894,7 @@ main {
   border: 0;
   width: 80%;
   height: 500px;
-  padding-bottom: 150px;
+  padding-top: 150px;
 }
 
 .flex_discover .container_encarts_discover1 {
