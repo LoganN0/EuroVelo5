@@ -70,6 +70,7 @@ main {
     width: 100%;
     height: auto;
     border-radius: 15px;
+    z-index: -1;
 }
 
 #precedent, #suivant {
@@ -293,7 +294,7 @@ main {
     height: 100vh;
   }
 
-.form {
+#form {
     background-color: #15172b;
     border-radius: 20px;
     box-sizing: border-box;
@@ -409,4 +410,47 @@ main {
 }
 .text-about{
     line-height: 3vh;
+}
+
+
+// Respnsive 
+
+@media only screen and (max-width: 1200px)  {
+    .containerText{
+        top:20%;
+        font-size:auto;
+    }
+}
+@media only screen and (max-width: 768px)  {
+    .containerText{
+        display: none;
+    }
+    .containerButtons {
+        display: grid;
+    }
+
+}
+
+// Partie Description/Carte
+
+.description_carte{
+    text-align: center;
+
+    .titleev5{
+        font-weight: 600;
+        font-style: italic;
+        padding: 50px 200px 50px 240px;
+    }
+
+    .descriptionev5{
+        padding: 50px 200px 50px 240px;
+        color: rgb(72, 72, 72);
+    }
+
+    .mapev5{
+        border: 0;
+        width: 80%;
+        height: 500px;
+        padding-bottom: 150px;
+    }
 }
