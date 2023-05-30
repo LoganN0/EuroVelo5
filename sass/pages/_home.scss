@@ -8,6 +8,12 @@ main {
     height: 100%;
 }
 
+.carousel-bg {
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    padding-top: 5%;
+}
+
 .containerSlider {
     height: 100%;
     margin: auto;
@@ -62,6 +68,7 @@ main {
 #slide{
     width: 100%;
     height: auto;
+    border-radius: 15px;
     z-index: -1;
 }
 
@@ -116,11 +123,17 @@ main {
     padding-bottom: 40px;
 }
 
+.avis-zone {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+}
+
 .avis-block-container {
     width: 100%;
-    height: 85vh;
-    background-color: rgb(240, 240, 240);
-    position: absolute;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -141,8 +154,8 @@ main {
 }
 
 .avis-block1:hover {
-    background-color: wheat;
-    transform: rotate(2deg) scale(1.05);
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.02);
 }
 
 .notations {
@@ -165,8 +178,8 @@ main {
 }
 
 .avis-block2:hover {
-    background-color: wheat;
-    transform: rotate(2deg) scale(1.05);
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.02);
 }
 
 .avis-block3 {
@@ -183,8 +196,8 @@ main {
 }
 
 .avis-block3:hover {
-    background-color: wheat;
-    transform: rotate(1deg) scale(1.05);
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.02);
 }
 
 .avis-rating {
@@ -200,6 +213,7 @@ main {
     font-size: 14px;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 6%;
     overflow: hidden;
 }
 
@@ -213,19 +227,47 @@ main {
     color: rgb(106, 106, 151);
     text-decoration: none;
     border: 0px solid;
-    padding: 6%;
-    transition: .2s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 .avis-readmore:hover {
     font-weight: bolder;
-    padding: 0%;
-    border-bottom: 2px solid rgb(106, 106, 151);
+    padding: 1%;
+    border-bottom: 3px solid rgb(106, 106, 151);
 }
 
 .avis-block-date {
     margin-top: 2%;
 }
+
+.give-avis {
+    width: 16%;
+    align-self: center;
+    margin-top: 0.5%;
+    border: 4px solid rgb(184, 247, 205);
+    border-radius: 5px;
+    background-color: rgb(100, 255, 152);
+    padding: 0.5%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    transition: .1s;
+}
+
+.give-avis:hover {
+    border: 4px solid rgb(100, 255, 152);
+    background-color: rgb(184, 247, 205);
+    transform: scale(1.05);
+}
+
+.ac {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
 .btnGris:hover {
     background-color: #414856;
     color: white;
@@ -386,4 +428,28 @@ main {
         display: grid;
     }
 
+}
+
+// Partie Description/Carte
+
+.description_carte{
+    text-align: center;
+
+    .titleev5{
+        font-weight: 600;
+        font-style: italic;
+        padding: 50px 200px 0px 240px;
+    }
+
+    .descriptionev5{
+        padding: 50px 200px 50px 240px;
+        color: rgb(72, 72, 72);
+    }
+
+    .mapev5{
+        border: 0;
+        width: 80%;
+        height: 500px;
+        padding-top: 150px;
+    }
 }
