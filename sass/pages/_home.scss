@@ -408,9 +408,13 @@ main {
     font-weight: lighter;
 }
 .text-about{
-    line-height: 3vh;
+    line-height: 200%;
 }
-
+@media only screen and (max-width: 1200px)  {
+    .text-about{
+        line-height: 130%;
+    }
+    }
 
 // Respnsive 
 
@@ -431,25 +435,36 @@ main {
 }
 
 // Partie Description/Carte
-
+.descriptionev5{
+    color: rgb(72, 72, 72);
+    text-align: justify;
+}
+.titleev5{
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 1.35em;
+    
+}
 .description_carte{
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}  
 
-    .titleev5{
-        font-weight: 600;
-        font-style: italic;
-        padding: 50px 200px 0px 240px;
-    }
-
+.mapev5{
+    border: 0;
+    width: 80%;
+    height: 500px;
+    padding-top: 150px;
+}
+@media only screen and (max-width: 1100px)  {
     .descriptionev5{
-        padding: 50px 200px 50px 240px;
-        color: rgb(72, 72, 72);
+        text-align: justify;
+    }
+    .titleev5{
+        text-align: justify;
     }
 
-    .mapev5{
-        border: 0;
-        width: 80%;
-        height: 500px;
-        padding-top: 150px;
-    }
 }
