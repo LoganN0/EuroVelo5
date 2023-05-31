@@ -11,7 +11,7 @@ fetch('http://85.169.220.243:5006/api/trajets/')
       const name = trajet.attributes.nomVille;
       const habitude = trajet.attributes.habitude;
       const description = trajet.attributes.description;
-      const image = trajet.attributes.image;
+      const image_url = trajet.attributes.image_url;
       
  
 
@@ -20,15 +20,16 @@ fetch('http://85.169.220.243:5006/api/trajets/')
       return `
 
       
-      
-      <div id="photoSecondSide"><img src="images/cardGPS/1.1-Roscoff-3_EV4-Emmanuel-Berthier.webp" alt="" class="imgCardGps"></div>
+      <div class="containerBox">
+      <div id="photoSecondSide"><img src=${image_url} alt="" class="imgCardGps"></div>
       <div class="contenuSecondSlid">
           <div id="jeunContenuSecondSlide">${type}</div>
           <div id="petitTitreContenuSecondSlide">${habitude}</div>
           <div id="titreContenuSecondSlide">${name}</div>
           <div id="paraghraphSecondSlide">${description}</div>
 
-      </div>    
+      </div>   
+      </div>   
       
       
         `;
