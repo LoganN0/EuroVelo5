@@ -200,13 +200,22 @@ main {
     transform: scale(1.02);
 }
 
-.avis-rating {
-    color: rgb(119, 101, 0);
-}
-
-.avis-notes-bg {
+.avis-notations-block {
+    display: flex;
+    flex-direction: row;
     background-color: rgb(202, 202, 202);
     border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+// TODO: faire le media query des notations
+
+// .avis-notation {
+//     margin-left: 10%;
+// }
+
+.avis-rating {
+    color: rgb(119, 101, 0);
 }
 
 .avis-comment-content {
@@ -268,17 +277,31 @@ main {
     color: black;
 }
 
-@media screen and (max-width: 800px) {
-    
-    .avis-block-container {
-        font-size: 12px;
-    }
+@media screen and (max-width: 1000px) {
 
     .give-avis {
-        font-size: 11px;
         width: auto;
+        font-size: 20px;
     }
 
+    .avis-block-container {
+        flex-direction: column;
+    }
+    
+    .avis-block1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .avis-block2 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .avis-block3 {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 
 .btnGris:hover {
