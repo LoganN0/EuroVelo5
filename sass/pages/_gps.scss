@@ -10,6 +10,7 @@ body {
     width: 45%;
     height: 600px;
     padding: 0.5%;
+    margin-left: 2%;
     margin: 0.5%;
 }
 
@@ -41,7 +42,7 @@ body {
     padding: 2px 5px;
     width: auto;
     height: 50px;
-    border-radius: 7%;
+    border-radius: 7px;
     }
 
 .imgCardGps {
@@ -114,20 +115,29 @@ body {
 
 
 @media only screen and (max-width: 768px)  {
-    .body {
-        margin-right: 10%;
+    .selectionCart{
+        width: 100%;
+        padding-right: 10%;
     }
-    .firstSide{
-        width: 700px;
+    
+    .selectGps{
+        font-size: 0.6rem;
+        width: auto;
+
     }
     .contenuFisrtSlide {
-       width: 100%;
-    }
+       width: auto;
+       display: flex;
+       padding-left: 10%;
+     }
     
     .selectionCart {
     position: absolute;
     left: 0; 
-    top: 15%;
+    top: 10%;
+    padding-right: 5%;
+    margin-right: 10%;
+
           
     }
     #secondSide {
@@ -135,9 +145,31 @@ body {
     }
     
     #map {
-        top: 30%;
+         top: 35%;
          width: 100%;
          z-index: 9;
     }
+  
 
 }
+
+@media only screen and (max-width: 1000px ) and (min-width: 768px)  {
+    .contenuFisrtSlide {
+        
+       width: 100%;
+       display: grid;
+       padding-left: 10%;
+    }
+    .containerBox {
+        display: flex;
+        flex-direction: column;
+    }
+}
+   
+
+    @media only screen and (max-width: 340px){
+        .contenuFisrtSlide {
+        
+            display: grid;
+         }
+    }  
