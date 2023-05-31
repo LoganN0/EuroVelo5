@@ -1033,10 +1033,23 @@ body {
   padding: 0;
 }
 
+.selectionCart {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 45%;
+  height: 600px;
+  padding: 0.5%;
+  margin: 0.5%;
+}
+
 .firstSide {
   padding: 2%;
   background-color: rgb(58, 72, 180);
   height: 15%;
+  border-radius: 20px;
+  margin-bottom: 1%;
+  height: auto;
 }
 
 .titreFirstSide {
@@ -1062,8 +1075,11 @@ body {
 }
 
 .imgCardGps {
-  height: 220px;
-  width: 240px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 300px;
 }
 
 #secondSide {
@@ -1073,11 +1089,16 @@ body {
   overflow: auto;
 }
 
+.containerBox {
+  display: flex;
+  flex-direction: row;
+}
+
 #secondSide :hover {
-  background-color: #261616;
+  background-color: #446d97;
 }
 #secondSide :hover .paraghraphSecondSlide {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 #secondSide :hover .titreContenuSecondSlide {
   color: aliceblue;
@@ -1090,7 +1111,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-left: 1%;
+  padding: 1%;
+  text-align: center;
 }
 
 #jeunContenuSecondSlide {
@@ -1115,34 +1137,36 @@ body {
 #map {
   position: absolute;
   top: 20%;
-  height: 700px;
-  width: 50%;
-  border-radius: 30px;
+  padding: 0.5%;
+  margin: 0.5%;
+  height: 650px;
+  width: 45%;
+  border-radius: 20px;
 }
 
-.selectionCart {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  width: 50%;
-  height: 700px;
-  border-radius: 30px;
+@media only screen and (max-width: 768px) {
+  .body {
+    margin-right: 10%;
+  }
+  .firstSide {
+    width: 700px;
+  }
+  .contenuFisrtSlide {
+    width: 100%;
+  }
+  .selectionCart {
+    position: absolute;
+    left: 0;
+    top: 15%;
+  }
+  #secondSide {
+    display: none;
+  }
+  #map {
+    top: 30%;
+    width: 100%;
+  }
 }
-
-.home-footer-gps {
-  position: absolute;
-  top: 90%;
-  height: 250px;
-  width: 100%;
-}
-
-.home-footer2-gps {
-  position: absolute;
-  top: 115%;
-  height: 250px;
-  width: 100%;
-}
-
 .container_flex {
   display: flex;
   flex-direction: column;
