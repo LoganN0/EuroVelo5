@@ -1015,6 +1015,18 @@ main {
     text-align: justify;
   }
 }
+.maphome {
+  position: relative;
+  width: 80%;
+  height: 500px;
+  padding: 120px 0px 0px 120px;
+  margin: auto;
+}
+.maphome #map {
+  height: 400px;
+  width: 80%;
+}
+
 .flex_discover .container_encarts_discover1 {
   padding-bottom: 50px;
 }
@@ -1165,6 +1177,7 @@ body {
   #map {
     top: 30%;
     width: 100%;
+    z-index: 9;
   }
 }
 .container_flex {
