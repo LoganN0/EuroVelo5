@@ -1240,6 +1240,51 @@ body {
   transform: scale(1.3);
 }
 
+.enTravaux {
+  font-size: 1.5em;
+  position: relative;
+}
+
+.enTravaux::before {
+  content: "La page est indisponible pour le moment";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: yellow;
+  background-color: black;
+}
+
+.enTravaux:hover::before {
+  animation: clignotement 0.7s infinite;
+  opacity: 1;
+}
+
+@keyframes clignotement {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.photo-travaux {
+  width: 500px;
+  align-self: center;
+}
+
+.taf {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
