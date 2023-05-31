@@ -27,7 +27,6 @@ fetch('http://85.169.220.243:5006/api/trajets/')
           <div id="petitTitreContenuSecondSlide">${habitude}</div>
           <div id="titreContenuSecondSlide">${name}</div>
           <div id="paraghraphSecondSlide">${description}</div>
-
       </div>    
       
       
