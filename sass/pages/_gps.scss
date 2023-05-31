@@ -114,8 +114,11 @@ body {
 
 
 @media only screen and (max-width: 768px)  {
+    .body {
+        margin-right: 10%;
+    }
     .firstSide{
-        width: 750px;
+        width: 700px;
     }
     .contenuFisrtSlide {
        width: 100%;
