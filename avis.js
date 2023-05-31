@@ -12,6 +12,10 @@ for (let i = 0; i < d.data.length; i++) {
     const localisation = document.getElementById("avis-localisation" + " " + (i + 1));
     const avisCommentObject = document.getElementById("avis-comment-object" + " " + (i + 1));
     const avisCommentContent = document.getElementById("avis-comment-content" + " " + (i + 1));
+    const avisNotation1 = document.getElementById("avis-notation1" + " " + (i + 1));
+    const avisNotation2 = document.getElementById("avis-notation2" + " " + (i + 1));
+    const avisNotation3 = document.getElementById("avis-notation3" + " " + (i + 1));
+    const avisNotation4 = document.getElementById("avis-notation4" + " " + (i + 1));
 
     console.log(d.data[i].attributes.name);
 
@@ -21,5 +25,9 @@ for (let i = 0; i < d.data.length; i++) {
     localisation.innerText = d.data[i].attributes.localisation;
     avisCommentObject.innerText = d.data[i].attributes.commentObject;
     avisCommentContent.innerText = d.data[i].attributes.commentContent;
+    avisNotation1.innerText = d.data[i].attributes.notation1 + "/5";
+    avisNotation2.innerText = d.data[i].attributes.notation2 + "/5";
+    avisNotation3.innerText = d.data[i].attributes.notation3 + "/5";
+    avisNotation4.innerText = d.data[i].attributes.notation4 + "/5";
 
 }
