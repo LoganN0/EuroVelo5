@@ -432,12 +432,14 @@ main {
     // background-color: #000;
     display: flex;
     justify-content: center;
-    height: 45vh;
+    // height: 45vh;
   }
 
 #form {
     background-color: #15172b;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    // border-radius: 20px;
     box-sizing: border-box;
     height: 550px;
     padding: 20px;
@@ -542,6 +544,7 @@ main {
     text-align: center;
     margin-left: 15%;
     margin-right: 14.7%;
+    margin-bottom: 10%;
     
 }
 .titre-about{
@@ -593,6 +596,8 @@ main {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 10%;
 }  
 
 .mapev5{
