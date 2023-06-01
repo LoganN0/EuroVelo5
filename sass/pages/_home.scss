@@ -607,3 +607,16 @@ main {
     }
 
 }
+
+.maphome{
+    position:relative;
+    width: 80%;
+    height: 500px;
+    padding: 120px 0px 0px 120px;
+    margin: auto;
+
+    #map{
+        height: 400px;
+        width: 80%;
+    }
+}
