@@ -1115,18 +1115,18 @@ main {
     text-align: justify;
   }
 }
-.maphome {
-  position: relative;
-  width: 80%;
-  height: 500px;
-  padding: 120px 0px 0px 120px;
-  margin: auto;
-}
-.maphome #map {
+#map1 {
   height: 400px;
   width: 80%;
+  margin: auto;
+  padding: auto;
 }
 
+@media only screen and (max-width: 768px) {
+  #map1 {
+    height: 250px;
+  }
+}
 .flex_discover .container_encarts_discover1 {
   padding-bottom: 50px;
 }
