@@ -296,6 +296,55 @@
     display: none;
   }
 }
+.all-espace-perso {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Poppins", sans-serif;
+}
+
+.espace-perso-gauche {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-content: center;
+}
+
+.espace-perso-titre {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(25, 25, 25);
+  margin-bottom: 3%;
+}
+
+.espace-perso-txt1 {
+  color: rgb(25, 25, 25);
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.div-text1 {
+  display: flex;
+}
+
+.numero1 {
+  color: orangered;
+  margin-right: 2%;
+  border: solid orangered 1px;
+  border-radius: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.espace-perso-sous-titre {
+  color: rgb(22, 165, 253);
+  font-weight: lighter;
+  font-size: 2em;
+  margin-bottom: 2%;
+  text-align: left;
+}
+
 .nav-mobile {
   position: relative;
 }
