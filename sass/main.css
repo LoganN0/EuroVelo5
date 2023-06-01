@@ -520,8 +520,8 @@
   border-radius: 50px;
 }
 
-body {
-  font-family: "Varela Round", sans-serif;
+.body-home {
+  font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -830,6 +830,7 @@ main {
 }
 
 .avis-block1-list {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -843,6 +844,7 @@ main {
 }
 
 .avis-block2-list {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -856,6 +858,7 @@ main {
 }
 
 .avis-block3-list {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -901,6 +904,7 @@ main {
 .avis-title-list {
   text-align: center;
   padding-top: 3%;
+  font-family: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 800px) {
@@ -1140,9 +1144,17 @@ main {
   font-style: italic;
 }
 
+.body-discover {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
+}
+
+.body-gps {
+  font-family: "Poppins", sans-serif;
 }
 
 .selectionCart {
@@ -1303,6 +1315,10 @@ body {
     display: grid;
   }
 }
+.body-ip {
+  font-family: "Poppins", sans-serif;
+}
+
 .container_flex {
   display: flex;
   flex-direction: column;
@@ -1375,6 +1391,10 @@ body {
   transform: scale(1.3);
 }
 
+.body-parcours {
+  font-family: "Poppins", sans-serif;
+}
+
 .enTravaux {
   font-size: 1.5em;
   position: relative;
@@ -1420,10 +1440,17 @@ body {
   text-align: center;
 }
 
+.body-transport {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font: "Varela Round", sans-serif;
+}
+
+.body-sp {
+  font-family: "Poppins", sans-serif;
 }
 
 .containerSavoir {
