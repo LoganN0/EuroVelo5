@@ -16,6 +16,7 @@ for (let i = 0; i < d.data.length; i++) {
     const avisNotation2 = document.getElementById("avis-notation2" + " " + (i + 1));
     const avisNotation3 = document.getElementById("avis-notation3" + " " + (i + 1));
     const avisNotation4 = document.getElementById("avis-notation4" + " " + (i + 1));
+    const avisReponses = document.getElementById("avis-responses-count" + " " + (i + 1));
 
     console.log(d.data[i].attributes.name);
 
@@ -29,5 +30,6 @@ for (let i = 0; i < d.data.length; i++) {
     avisNotation2.innerText = d.data[i].attributes.notation2 + "/5";
     avisNotation3.innerText = d.data[i].attributes.notation3 + "/5";
     avisNotation4.innerText = d.data[i].attributes.notation4 + "/5";
+    avisReponses.innerText = d.data[i].attributes.responses + " réponses";
 
 }

@@ -48,7 +48,7 @@ for (let i = 0; i < d.data.length; i++) {
                 <h4 id="avis-comment-object-list ${i}">${d.data[i].attributes.commentObject}</h4>
                 <p id="avis-comment-content-list ${i}" class="avis-comment-content-list">${d.data[i].attributes.commentContent}</p>
                 <div class="avis-infos-container-list">
-                    <h5 id="avis-responses-count-list ${i}">? réponses</h5>
+                    <h5 id="avis-responses-count-list ${i}">${d.data[i].attributes.responses} réponses</h5>
                 </div>
 
             </div>
