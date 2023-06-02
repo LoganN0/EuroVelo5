@@ -6,17 +6,17 @@ const d = await r.json();
 
 for (let i = 0; i < d.data.length; i++) {
     
-    const date = document.getElementById("avis-block-date" + " " + (i + 1));
-    const name = document.getElementById("avis-block-name" + " " + (i + 1));
-    const rating = document.getElementById("avis-rating" + " " + (i + 1));
-    const localisation = document.getElementById("avis-localisation" + " " + (i + 1));
-    const avisCommentObject = document.getElementById("avis-comment-object" + " " + (i + 1));
-    const avisCommentContent = document.getElementById("avis-comment-content" + " " + (i + 1));
-    const avisNotation1 = document.getElementById("avis-notation1" + " " + (i + 1));
-    const avisNotation2 = document.getElementById("avis-notation2" + " " + (i + 1));
-    const avisNotation3 = document.getElementById("avis-notation3" + " " + (i + 1));
-    const avisNotation4 = document.getElementById("avis-notation4" + " " + (i + 1));
-    const avisReponses = document.getElementById("avis-responses-count" + " " + (i + 1));
+    const date = document.getElementById(`avis-block-date-${i + 1}`);
+    const name = document.getElementById(`avis-block-name-${i + 1}`);
+    const rating = document.getElementById(`avis-rating-${i + 1}`);
+    const localisation = document.getElementById(`avis-localisation-${i + 1}`);
+    const avisCommentObject = document.getElementById(`avis-comment-object-${i + 1}`);
+    const avisCommentContent = document.getElementById(`avis-comment-content-${i + 1}`);
+    const avisNotation1 = document.getElementById(`avis-notation1-${i + 1}`);
+    const avisNotation2 = document.getElementById(`avis-notation2-${i + 1}`);
+    const avisNotation3 = document.getElementById(`avis-notation3-${i + 1}`);
+    const avisNotation4 = document.getElementById(`avis-notation4-${i + 1}`);
+    const avisReponses = document.getElementById(`avis-responses-count-${i + 1}`);
 
     console.log(d.data[i].attributes.name);
 
