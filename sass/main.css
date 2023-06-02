@@ -567,6 +567,7 @@
   font-weight: bolder;
   font-size: 2vh;
   margin-left: 3vh;
+  padding: -1%;
 }
 
 .nav-link3:hover {
@@ -856,7 +857,12 @@ main {
   margin-top: 2%;
 }
 
-.give-avis {
+.ac {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: black;
   width: 16%;
   align-self: center;
   margin-top: 0.5%;
@@ -870,18 +876,10 @@ main {
   transition: 0.1s;
 }
 
-.give-avis:hover {
+.ac:hover {
   border: 4px solid rgb(100, 255, 152);
   background-color: rgb(184, 247, 205);
   transform: scale(1.05);
-}
-
-.ac {
-  text-align: center;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: bolder;
-  color: black;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1167,7 +1165,7 @@ main {
 @media only screen and (max-width: 1200px) {
   .containerText {
     top: 20%;
-    /* font-size: auto; */
+    font-size: auto;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1218,7 +1216,7 @@ main {
   height: 400px;
   width: 80%;
   margin: auto;
-  /* padding: auto; */
+  padding: auto;
 }
 
 @media only screen and (max-width: 768px) {
