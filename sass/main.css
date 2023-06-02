@@ -567,7 +567,6 @@
   font-weight: bolder;
   font-size: 2vh;
   margin-left: 3vh;
-  padding: -1%;
 }
 
 .nav-link3:hover {
@@ -1168,7 +1167,7 @@ main {
 @media only screen and (max-width: 1200px) {
   .containerText {
     top: 20%;
-    font-size: auto;
+    /* font-size: auto; */
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1219,7 +1218,7 @@ main {
   height: 400px;
   width: 80%;
   margin: auto;
-  padding: auto;
+  /* padding: auto; */
 }
 
 @media only screen and (max-width: 768px) {
