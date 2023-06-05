@@ -567,7 +567,6 @@
   font-weight: bolder;
   font-size: 2vh;
   margin-left: 3vh;
-  padding: -1%;
 }
 
 .nav-link3:hover {
@@ -857,12 +856,7 @@ main {
   margin-top: 2%;
 }
 
-.ac {
-  text-align: center;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: bolder;
-  color: black;
+.give-avis {
   width: 16%;
   align-self: center;
   margin-top: 0.5%;
@@ -876,10 +870,18 @@ main {
   transition: 0.1s;
 }
 
-.ac:hover {
+.give-avis:hover {
   border: 4px solid rgb(100, 255, 152);
   background-color: rgb(184, 247, 205);
   transform: scale(1.05);
+}
+
+.ac {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: black;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1165,7 +1167,7 @@ main {
 @media only screen and (max-width: 1200px) {
   .containerText {
     top: 20%;
-    font-size: auto;
+    /* font-size: auto; */
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1216,7 +1218,7 @@ main {
   height: 400px;
   width: 80%;
   margin: auto;
-  padding: auto;
+  /* padding: auto; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -1605,7 +1607,6 @@ body {
   border-radius: 16px;
   padding: 3%;
   background-color: beige;
-  box-shadow: 0px 0px 5px gray;
 }
 
 #ga-indication {
@@ -1618,11 +1619,6 @@ body {
   padding: 1%;
   font-size: 18px;
   border-radius: 4px;
-  transition: 0.1s;
-}
-
-#name:hover {
-  box-shadow: 4px 4px 1px gray;
 }
 
 #date {
@@ -1631,11 +1627,6 @@ body {
   padding: 1%;
   font-size: 18px;
   border-radius: 4px;
-  transition: 0.1s;
-}
-
-#date:hover {
-  box-shadow: 4px 4px 1px gray;
 }
 
 #localisation {
@@ -1644,71 +1635,38 @@ body {
   padding: 0.6%;
   font-size: 18px;
   border-radius: 4px;
-  transition: 0.1s;
-}
-
-#localisation:hover {
-  box-shadow: 4px 4px 1px gray;
 }
 
 #notation1 {
   border: 0px solid;
-  padding: 0.1%;
+  padding: 0.6%;
   font-size: 18px;
   border-radius: 4px;
-  transition: 0.1s;
-}
-
-#notation1:hover {
-  box-shadow: 4px 4px 1px gray;
 }
 
 #notation2 {
   border: 0px solid;
-  padding: 0.1%;
+  padding: 0.6%;
   font-size: 18px;
   border-radius: 4px;
-  transition: 0.1s;
-}
-
-#notation2:hover {
-  box-shadow: 4px 4px 1px gray;
 }
 
 #notation3 {
   border: 0px solid;
-  padding: 0.1%;
+  padding: 0.6%;
   font-size: 18px;
   border-radius: 4px;
-  transition: 0.1s;
-}
-
-#notation3:hover {
-  box-shadow: 4px 4px 1px gray;
 }
 
 #notation4 {
   border: 0px solid;
-  padding: 0.1%;
+  padding: 0.6%;
   font-size: 18px;
   border-radius: 4px;
-  transition: 0.1s;
-}
-
-#notation4:hover {
-  box-shadow: 4px 4px 1px gray;
 }
 
 #cobject {
-  border: 0px solid;
-  padding: 1%;
-  font-size: 18px;
-  border-radius: 4px;
-  transition: 0.1s;
-}
-
-#cobject:hover {
-  box-shadow: 4px 4px 1px gray;
+  width: 100%;
 }
 
 .ga-comment-content-block {
@@ -1718,28 +1676,4 @@ body {
 
 #content {
   width: 100%;
-  border: 0px solid;
-  border-radius: 4px;
-  font-size: 18px;
-  transition: 0.1s;
-}
-
-#content:hover {
-  box-shadow: 4px 4px 1px gray;
-}
-
-#ga-submit {
-  width: auto;
-  padding: 1%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border: 2px solid rgb(170, 255, 213);
-  border-radius: 7px;
-  background-color: rgb(73, 255, 164);
-  transition: 0.2s;
-}
-
-#ga-submit:hover {
-  border: 2px solid rgb(73, 255, 164);
-  background-color: rgb(170, 255, 213);
 }/*# sourceMappingURL=main.css.map */
